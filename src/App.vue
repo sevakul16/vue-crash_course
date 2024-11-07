@@ -1,23 +1,16 @@
-<script>
-export default {
-  name: "App",
-  data() {
-    return {
-      name: "Seva",
-      tasks: [
-        { id: 1, title: "Task 1", done: false },
-        { id: 2, title: "Task 2", done: true },
-        { id: 3, title: "Task 3", done: false },
-      ],
-      status: "offline",
-      link: "https://www.google.com",
-    };
-  },
-  methods: {
-    toggleStatus() {
-      this.status = this.status === "online" ? "offline" : "online";
-    },
-  },
+<script setup>
+import { ref } from "vue";
+const name = ref("John Doe");
+const status = ref("offline");
+const tasks = ref([
+  { id: 1, title: "Task 1" },
+  { id: 2, title: "Task 2" },
+  { id: 3, title: "Task 3" },
+]);
+const link = "https://www.google.com";
+
+const toggleStatus = () => {
+  status.value = status.value === "online" ? "offline" : "online";
 };
 </script>
 
