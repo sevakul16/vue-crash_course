@@ -27,3 +27,13 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Start JSON Server
+
+To start the JSON server, run the following command:
+
+```sh
+npm run server
+```
+
+Make sure you have a `db.json` file in the root of your project to serve as the database for the JSON server.
