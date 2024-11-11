@@ -40,7 +40,6 @@ onMounted(async () => {
     console.error(error);
   } finally {
     state.isLoading = false;
-    console.log(state.job);
   }
 });
 </script>
@@ -55,7 +54,7 @@ onMounted(async () => {
             class="bg-white p-6 rounded-lg shadow-md text-center md:text-left"
           >
             <div class="text-gray-500 mb-4">{{ state.job.type }}</div>
-            <h1 class="text-3xl font-bold mb-4">{{ state.job.title }}</h1>
+            <h1 class="text-3xl font-bold mb-4">{{ state.job.name }}</h1>
             <div
               class="text-gray-500 mb-4 flex align-middle justify-center md:justify-start"
             >

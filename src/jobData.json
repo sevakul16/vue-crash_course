@@ -1,18 +1,18 @@
 {
   "jobs": [
     {
-      "id": "3",
-      "title": "Vue.js Developer",
       "type": "Full-Time",
+      "name": "Max ADADAD",
       "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
+      "salary": "$175K - $200K",
       "location": "Brooklyn, NY",
-      "salary": "$70K - $80K",
       "company": {
         "name": "Dolor Cloud",
         "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
         "contactEmail": "contact@dolorsitamet.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "3"
     },
     {
       "id": "4",
@@ -43,18 +43,18 @@
       }
     },
     {
-      "id": "6",
-      "title": "Vue Native Developer",
       "type": "Full-Time",
+      "name": "sssadas",
       "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
+      "salary": "$125K - $150K",
       "location": "Portland, OR",
-      "salary": "$100K - $110K",
       "company": {
         "name": "Port Solutions INC",
         "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "6"
     },
     {
       "id": "2054",
@@ -83,6 +83,20 @@
         "contactEmail": "gani@mailinator.com",
         "contactPhone": "+1 (938) 118-7825"
       }
+    },
+    {
+      "type": "Full-Time",
+      "name": "Heidi Conrad AAAAAAAAAAAAAA",
+      "description": "Tempore facilis inc",
+      "salary": "$60K - $70K",
+      "location": "Ea in ullamco eaque ",
+      "company": {
+        "name": "Chen and Lucas Trading",
+        "description": "Accusamus aliquid it",
+        "contactEmail": "cuhypot@mailinator.com",
+        "contactPhone": "+1 (971) 711-8181"
+      },
+      "id": "7d95"
     }
   ]
 }
